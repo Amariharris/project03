@@ -14,6 +14,30 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 function generatePassword(){
+  var upperChars = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
+
+  var lowerChars = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+
+  var numbChars = ["0","1","2","3","4","5","6","7","8"];
+
+  var specialChars = ["!","@","#","$","%","^","&","*"];
+
+  var allChars = upperChars.concat(lowerChars, numbChars, specialChars);
+
+  console.log(allChars);
+
+  var Chars = confirm("Would you like Capital letters?");
+confirm("would you like special characters?");
+confirm("Include special characters?");
+
+for (let i = 1; i <= 8; i++) {
+  var allChars = Math.floor(Math.random()
+   .toString+ 8);
+    
+  pass += str.charAt(char)
+}
+
+return generatePassword;
 // prompt how many characters
 // var for characters
 
